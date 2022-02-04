@@ -1,6 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:progress_indicators/progress_indicators.dart';
 import 'package:flutter_desktop_map/screens/map/screen.dart';
-import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -18,11 +18,12 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
+    return Container(
+      color: const Color(0xFFFFFFFF),
+      child: Center(
           child: GlowingProgressIndicator(
         child: Image.asset(
-          'assets/logo/white-logo.png',
+          'assets/logo/sample-logo.png',
           height: 120,
         ),
       )),

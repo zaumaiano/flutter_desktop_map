@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:fluent_ui/fluent_ui.dart';
 
 class AttributionWidget extends StatelessWidget {
   final String description;
@@ -15,7 +15,7 @@ class AttributionWidget extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Container(
-          color: Colors.black87,
+          color: Colors.white,
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(

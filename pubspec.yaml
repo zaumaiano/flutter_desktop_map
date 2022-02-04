@@ -10,6 +10,7 @@ environment:
 
 dependencies:
   cupertino_icons: ^1.0.2
+  fluent_ui: ^3.8.0
   flutter:
     sdk: flutter
   flutter_map: ^0.14.0

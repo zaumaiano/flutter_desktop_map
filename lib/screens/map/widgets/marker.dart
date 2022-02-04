@@ -1,5 +1,5 @@
 import 'package:flutter_map/flutter_map.dart';
-import 'package:flutter/material.dart';
+import 'package:fluent_ui/fluent_ui.dart';
 
 markerBuilder({
   required dynamic location,
@@ -11,8 +11,7 @@ markerBuilder({
       point: location,
       builder: (ctx) => Tooltip(
         message: 'Localização Selecionada',
-        child: InkWell(
-          onTap: () => onTap(),
+        child: GestureDetector(
           child: Image.asset(
             'assets/icons/location-pin.png',
           ),

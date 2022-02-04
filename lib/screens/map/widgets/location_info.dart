@@ -17,14 +17,14 @@ class LocationInfoWidget extends StatelessWidget {
         Text(
           '$description: ',
           style: const TextStyle(
-            fontSize: 13,
+            fontSize: 14,
             fontWeight: FontWeight.w900,
           ),
         ),
         Text(
           locationPoint.toStringAsFixed(6),
           style: const TextStyle(
-            fontSize: 13,
+            fontSize: 14,
           ),
         ),
       ],

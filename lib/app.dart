@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_desktop_map/screens/splash/screen.dart';
 
 class DesktopMapApp extends StatelessWidget {
@@ -6,12 +6,12 @@ class DesktopMapApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return FluentApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter Desktop Map',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        brightness: Brightness.dark,
+        accentColor: Colors.blue,
+        brightness: Brightness.light,
       ),
       home: const SplashScreen(),
     );
